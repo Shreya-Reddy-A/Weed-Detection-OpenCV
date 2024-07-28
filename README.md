@@ -35,9 +35,10 @@ To get started follow these steps:
      pip install -r requirements.txt
      ```
 3. **Dataset**:
-    - Ensure you have your images in .jpeg format.
-      
-4. **Streamlit app**:
+- Ensure you have your image dataset and annotations in the correct folders:
+  - Images should be in the `images` folder in .jpeg format.
+   
+5. **Streamlit app**:
  
      - To run the Weed and Crop Detection Streamlit app
         ```
