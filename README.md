@@ -1,24 +1,53 @@
 
-
 # Weed Detection Using OpenCV
 
 This project implements a weed detection system using computer vision techniques with OpenCV, presented through a Streamlit web application. It aims to identify and locate weeds in agricultural fields, helping farmers optimize their crop management practices.
 
-## UI:
+# UI:
 
-<img width="779" alt="Screenshot 2024-07-28 at 8 49 59 PM" src="https://github.com/user-attachments/assets/9da3a18a-e659-453b-9a20-9ee94873e4d6">
+![Screenshot (262)](https://github.com/user-attachments/assets/9f04a9b1-257e-4cbc-bd1c-8917dcf7751c)
+![Screenshot (263)](https://github.com/user-attachments/assets/3a9e18b1-9598-4871-a5d5-9f580a1cb91f)
+![Screenshot (264)](https://github.com/user-attachments/assets/d99138e5-7173-4da1-a03a-c5c72bcb86bd)
 
-
-
-## Features
+# Features
 
 - Image preprocessing for optimal weed detection
 - Color-based segmentation to distinguish weeds from crops
 - Shape analysis for weed identification
+- Model training using K-Nearest Neighbors classifier
 - Visualization of detected weeds on input images
-- Streamlit web interface for easy interaction and result display
+- Interactive web interface using Streamlit and result display
 
-## Requirements
+# Getting Started
+To get started follow these steps:
+
+1. **Clone the Repository**:
+   
+   - Clone this repository to your local machine.
+     ```
+     git clone https://github.com/Shreya-Reddy-A/Weed-Detection-OpenCV.git
+     ```
+3. **Install Dependencies**:
+   
+   - Navigate into the cloned directory and install the necessary dependencies.
+     ```
+     cd Weed-Detection-OpenCV
+     pip install -r requirements.txt
+     ```
+3. **Dataset**:
+- Ensure you have your image dataset and annotations in the correct folders:
+  - Images should be in the `images` folder in .jpeg format.
+   
+5. **Streamlit app**:
+ 
+     - To run the Weed and Crop Detection Streamlit app
+        ```
+        streamlit run app.py
+        ```
+   - Open your web browser and navigate to the URL provided by Streamlit (typically `http://localhost:8501`).
+   - Use the web interface to view weed detection results.
+
+# Requirements
 
 - Python 3.7+
 - OpenCV 4.5+
@@ -26,41 +55,10 @@ This project implements a weed detection system using computer vision techniques
 - Matplotlib (for visualization)
 - Streamlit
 
-## Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/shresthacodes/Weed-detection-using-OpenCV.git
-   cd Weed-detection-using-OpenCV
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Run the Streamlit app:
-   ```
-   streamlit run app.py
-   ```
-
-2. Open your web browser and navigate to the URL provided by Streamlit (typically `http://localhost:8501`).
-
-3. Use the web interface to upload images and view weed detection results.
 
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- OpenCV community for their excellent documentation and examples
-- Streamlit for providing an easy-to-use framework for creating data applications
 
