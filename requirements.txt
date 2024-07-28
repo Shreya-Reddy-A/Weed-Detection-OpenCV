@@ -1,0 +1,7 @@
+os
+json
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
