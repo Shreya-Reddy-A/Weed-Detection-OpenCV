@@ -1,6 +1,4 @@
-opencv-python-headless
-numpy
-pandas
-matplotlib
-scikit-learn
 streamlit
+opencv-python-headless==4.10.0.84
+numpy
+scikit-learn
