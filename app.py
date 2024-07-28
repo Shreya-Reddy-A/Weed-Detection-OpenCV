@@ -208,7 +208,7 @@ if st.session_state.is_trained:
             accuracy = st.session_state.model.score(X_test, y_test)
             st.write(f"Accuracy: {accuracy * 100:.2f}%")
 
-            # Display test images with detections in rows of 4
+            # Display test images with detections in rows of  4
             for i in range(0, len(test_images[:20]), 4):
                 cols = st.columns(4)
                 for j in range(4):
